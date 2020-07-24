@@ -1,0 +1,19 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\Udemy Course\ToonTanks).
+  Parsing headers for ToonTanksEditor
+    Running UnrealHeaderTool "F:\Udemy Course\ToonTanks\ToonTanks.uproject" "F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\sukhpreet\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for ToonTanksEditor in 14.9803219 seconds
+  Building ToonTanksEditor...
+  Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 8 actions with 4 processes...
+    [1/8] PawnTank.cpp
+F:\Udemy Course\ToonTanks\Source\ToonTanks\Pawns\PawnTank.cpp(8): error C2509: 'BeginPlay': member function not declared in 'APawnBase'
+    F:\Udemy Course\ToonTanks\Source\ToonTanks\Pawns\PawnBase.h(12): note: see declaration of 'APawnBase'
+F:\Udemy Course\ToonTanks\Source\ToonTanks\Pawns\PawnTank.cpp(15): error C2509: 'Tick': member function not declared in 'APawnBase'
+    F:\Udemy Course\ToonTanks\Source\ToonTanks\Pawns\PawnBase.h(12): note: see declaration of 'APawnBase'
+F:\Udemy Course\ToonTanks\Source\ToonTanks\Pawns\PawnTank.cpp(22): error C2509: 'SetupPlayerInputComponent': member function not declared in 'APawnBase'
+    F:\Udemy Course\ToonTanks\Source\ToonTanks\Pawns\PawnBase.h(12): note: see declaration of 'APawnBase'
+    [2/8] ToonTanks.init.gen.cpp
+    [3/8] PawnBase.cpp
+    [4/8] PawnTank.gen.cpp
+    [5/8] PawnBase.gen.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "chcp 65001 >NUL && "C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Build\BatchFiles\Build.bat" ToonTanksEditor Win64 Development -Project="F:\Udemy Course\ToonTanks\ToonTanks.uproject" -WaitMutex -FromMsBuild" exited with code 6.
