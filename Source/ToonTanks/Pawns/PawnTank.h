@@ -14,40 +14,41 @@ class TOONTANKS_API APawnTank : public APawnBase
 {
 	GENERATED_BODY()
 
-	protected:
-		// Called when the game starts or when spawned
-		virtual void BeginPlay() override;
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	virtual void HandleDestruction() override;
+	virtual void Fire();
+
+public:
+	// Sets default values for this pawn's properties
+	APawnTank();
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 
-	public:
-		// Sets default values for this pawn's properties
-		APawnTank();
-
-		// Called every frame
-		virtual void Tick(float DeltaTime) override;
-
-		// Called to bind functionality to input
-		virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-
-	private:
-
-		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 		USpringArmComponent* SpringArmComp;
-		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 		UCameraComponent* CameraComp;
-
-		FVector MoveDirection;
-		FQuat RotationDirection;
-
-		UPROPERTY(EditAnywhere, Category = "Speed")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed", meta = (AllowPrivateAccess = "true"))
 		float MoveSpeed = 100.f;
-		UPROPERTY(EditAnywhere, Category = "Speed")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed", meta = (AllowPrivateAccess = "true"))
 		float RotateSpeed = 100.f;
 
-		void CalculateMoveInput(float Value);
-		void CalculateRotateInput(float Value);
+	FVector MoveDirection;
+	FQuat RotationDirection;
 
-		void Move();
-		void Rotate();
+	APlayerController* PlayerControllerRef;
+
+	void CalculateMoveInput(float Value);
+	void CalculateRotateInput(float Value);
+	void Move();
+	void Rotate();
 };
