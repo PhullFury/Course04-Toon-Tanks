@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ToonTanks-0166.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\ProjectileBase.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnBase.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnTank.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnTurret.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\ToonTanks.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnBase.gen.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnTank.gen.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\PawnTurret.gen.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\ProjectileBase.gen.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\ToonTanks.init.gen.cpp.obj"
+"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Default.rc2.res"
+/OUT:"F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0166.lib"
+/INCLUDE:IMPLEMENT_MODULE_ToonTanks

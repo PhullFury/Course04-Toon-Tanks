@@ -66,18 +66,20 @@ void EmptyLinkFunctionForGeneratedCodePawnTank() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Speed" },
 		{ "ModuleRelativePath", "Pawns/PawnTank.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed = { "RotateSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnTank, RotateSpeed), METADATA_PARAMS(Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed = { "RotateSpeed", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnTank, RotateSpeed), METADATA_PARAMS(Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APawnTank_Statics::NewProp_RotateSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Speed" },
 		{ "ModuleRelativePath", "Pawns/PawnTank.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnTank, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnTank, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APawnTank_Statics::NewProp_MoveSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnTank_Statics::NewProp_CameraComp_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -129,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodePawnTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APawnTank, 2187802598);
+	IMPLEMENT_CLASS(APawnTank, 2352455866);
 	template<> TOONTANKS_API UClass* StaticClass<APawnTank>()
 	{
 		return APawnTank::StaticClass();
