@@ -381,6 +381,7 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\ToonTanks\ToonTanks.Build.cs" />
     <ClCompile Include="..\..\Source\ToonTanks\Actors\ProjectileBase.cpp" />
+    <ClCompile Include="..\..\Source\ToonTanks\Components\HealthComponent.cpp" />
     <ClCompile Include="..\..\Source\ToonTanks\GameModes\TankGameModeBase.cpp" />
     <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTank.cpp" />
     <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTurret.cpp" />
@@ -389,6 +390,7 @@
       <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h;$(SolutionDir)Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="..\..\Source\ToonTanks\Actors\ProjectileBase.h" />
+    <ClInclude Include="..\..\Source\ToonTanks\Components\HealthComponent.h" />
     <ClInclude Include="..\..\Source\ToonTanks\GameModes\TankGameModeBase.h" />
     <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTank.h" />
     <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTurret.h" />
