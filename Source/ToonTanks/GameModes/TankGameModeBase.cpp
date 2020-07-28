@@ -11,7 +11,7 @@ void ATankGameModeBase::BeginPlay()
 
 void ATankGameModeBase::ActorDied(AActor* DeadActor)
 {
-
+	UE_LOG(LogTemp, Error, TEXT("You ded son!"));
 }
 
 void ATankGameModeBase::HandleGameStart()
