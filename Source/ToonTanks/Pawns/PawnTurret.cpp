@@ -63,7 +63,7 @@ void APawnTurret::HandleDestruction()
 {
 	//calls PawnBase to play death effects
 	Super::HandleDestruction();
-	//Destroy();
+	Destroy();
 }
 
 void APawnTurret::Fire()

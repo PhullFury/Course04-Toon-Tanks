@@ -78,7 +78,7 @@ void APawnTank::Rotate()
 void APawnTank::HandleDestruction()
 {
 	Super::HandleDestruction();
-	//hide player.
+	//hide player
 }
 
 void APawnTank::Fire()
