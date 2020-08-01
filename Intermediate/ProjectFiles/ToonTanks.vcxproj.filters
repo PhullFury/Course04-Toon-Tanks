@@ -63,6 +63,9 @@
     <ClInclude Include="..\..\Source\ToonTanks\Components\HealthComponent.h">
       <Filter>Source\ToonTanks\Components</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTanks\PlayerControllers\PlayerControllerBase.h">
+      <Filter>Source\ToonTanks\PlayerControllers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTank.cpp">
@@ -80,6 +83,9 @@
     <ClCompile Include="..\..\Source\ToonTanks\Components\HealthComponent.cpp">
       <Filter>Source\ToonTanks\Components</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ToonTanks\PlayerControllers\PlayerControllerBase.cpp">
+      <Filter>Source\ToonTanks\PlayerControllers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source\ToonTanks\Actors">
@@ -90,6 +96,9 @@
     </Filter>
     <Filter Include="Source\ToonTanks\Components">
       <UniqueIdentifier>{f7b6b007-86ac-4a22-b915-aa5e4fcb4601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ToonTanks\PlayerControllers">
+      <UniqueIdentifier>{67b43ee1-4871-4458-9764-8b753a4e3099}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

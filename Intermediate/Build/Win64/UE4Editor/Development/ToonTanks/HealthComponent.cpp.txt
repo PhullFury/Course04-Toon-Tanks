@@ -1,12 +1,6 @@
 F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
 F:\Udemy Course\ToonTanks\Source\ToonTanks\Components\HealthComponent.h
 F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\HealthComponent.generated.h
-F:\Udemy Course\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h
-C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\TankGameModeBase.generated.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
@@ -18,3 +12,9 @@ C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+F:\Udemy Course\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\TankGameModeBase.generated.h

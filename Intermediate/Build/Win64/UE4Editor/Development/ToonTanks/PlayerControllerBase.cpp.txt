@@ -1,0 +1,3 @@
+F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
+F:\Udemy Course\ToonTanks\Source\ToonTanks\PlayerControllers\PlayerControllerBase.h
+F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PlayerControllerBase.generated.h

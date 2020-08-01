@@ -14,5 +14,12 @@ C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files (x86)\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 F:\Udemy Course\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.h
 F:\Udemy Course\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\ProjectileBase.generated.h

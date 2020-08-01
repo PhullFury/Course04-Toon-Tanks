@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TOONTANKS_PawnTank_generated_h
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_SPARSE_DATA
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_RPC_WRAPPERS
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_INCLASS_NO_PURE_DECLS \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_SPARSE_DATA
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_RPC_WRAPPERS
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPawnTank(); \
 	friend struct Z_Construct_UClass_APawnTank_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APawnTank)
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_INCLASS \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAPawnTank(); \
 	friend struct Z_Construct_UClass_APawnTank_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APawnTank)
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_STANDARD_CONSTRUCTORS \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APawnTank(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APawnTank) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_ENHANCED_CONSTRUCTORS \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APawnTank(APawnTank&&); \
@@ -58,34 +58,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnTank)
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_PRIVATE_PROPERTY_OFFSET \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(APawnTank, SpringArmComp); } \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(APawnTank, CameraComp); } \
 	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(APawnTank, MoveSpeed); } \
 	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(APawnTank, RotateSpeed); }
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_12_PROLOG
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_GENERATED_BODY_LEGACY \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_13_PROLOG
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_PRIVATE_PROPERTY_OFFSET \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_SPARSE_DATA \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_RPC_WRAPPERS \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_INCLASS \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_STANDARD_CONSTRUCTORS \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_PRIVATE_PROPERTY_OFFSET \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_SPARSE_DATA \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_RPC_WRAPPERS \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_INCLASS \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_GENERATED_BODY \
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_PRIVATE_PROPERTY_OFFSET \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_SPARSE_DATA \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_INCLASS_NO_PURE_DECLS \
-	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_15_ENHANCED_CONSTRUCTORS \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_PRIVATE_PROPERTY_OFFSET \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_SPARSE_DATA \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_INCLASS_NO_PURE_DECLS \
+	ToonTanks_Source_ToonTanks_Pawns_PawnTank_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
