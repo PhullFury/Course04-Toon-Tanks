@@ -4,7 +4,9 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "PawnTank.h"
+#include "ToonTanks/GameModes/TankGameModeBase.h"
 
 #define OUT
 
@@ -24,6 +26,7 @@ void APawnTank::BeginPlay()
 	Super::BeginPlay();
 
 	PlayerControllerRef = Cast<APlayerController>(GetController());
+	GameModeRef = Cast<ATankGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 }
 
 // Called every frame
@@ -79,9 +82,18 @@ void APawnTank::HandleDestruction()
 {
 	Super::HandleDestruction();
 	//hide player
+	bIsPlayerAlive = false;
+	SetActorHiddenInGame(true);
+	SetActorTickEnabled(false);
 }
 
 void APawnTank::Fire()
 {
+	if (GameModeRef->GetTargetTurretCount() == 0) {return;}
 	Super::Fire();
+}
+
+bool APawnTank::GetIsPlayerAlive()
+{
+	return bIsPlayerAlive;
 }

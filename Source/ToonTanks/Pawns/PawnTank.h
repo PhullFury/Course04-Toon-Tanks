@@ -8,6 +8,7 @@
 
 class USpringArmComponent;
 class UCameraComponent;
+class ATankGameModeBase;
 
 UCLASS()
 class TOONTANKS_API APawnTank : public APawnBase
@@ -31,6 +32,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual void HandleDestruction() override;
+	bool GetIsPlayerAlive();
 
 
 private:
@@ -45,8 +47,10 @@ private:
 
 	FVector MoveDirection;
 	FQuat RotationDirection;
+	bool bIsPlayerAlive = true;
 
 	APlayerController* PlayerControllerRef;
+	ATankGameModeBase* GameModeRef;
 
 	void CalculateMoveInput(float Value);
 	void CalculateRotateInput(float Value);

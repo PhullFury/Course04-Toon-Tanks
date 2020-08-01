@@ -42,5 +42,7 @@ private:
 		float FireRange = 500.f;
 
 	APawnTank* PlayerPawn;
+
 	FTimerHandle FireRateTimerHandle;
+	bool bPlayerStatus = true;
 };
